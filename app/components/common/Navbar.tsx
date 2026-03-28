@@ -23,7 +23,7 @@ const Navbar = () => {
         <Link href="/" className={`font-[JetMono] text-lg transition-colors hover:drop-shadow-lg ${isActive('/') ? 'text-lime-300 font-bold' : 'text-cyan-300 hover:text-lime-300'}`}>
           Home
         </Link>
-        <Link href="/library" className={`font-[JetMono] text-lg transition-colors hover:drop-shadow-lg ${isActive('/library') ? 'text-lime-300 font-bold' : 'text-cyan-300 hover:text-lime-300'}`}>
+        <Link href="/page/library" className={`font-[JetMono] text-lg transition-colors hover:drop-shadow-lg ${isActive('/library') ? 'text-lime-300 font-bold' : 'text-cyan-300 hover:text-lime-300'}`}>
           Library
         </Link>
         <Link href="/dashboard" className={`font-[JetMono] text-lg transition-colors hover:drop-shadow-lg ${isActive('/dashboard') ? 'text-lime-300 font-bold' : 'text-cyan-300 hover:text-lime-300'}`}>

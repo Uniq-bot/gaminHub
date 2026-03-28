@@ -91,6 +91,7 @@ const AddGame = () => {
       id: Math.max(...games.map(g => g.id), 0) + 1,
       title: formData.title,
       description: formData.description,
+      genre: formData.genre,
       state: formData.state as 'completed' | 'playing' | 'new',
       releaseDate: `${formData.year}-01-01`,
       imageUrl: previewImage || '/games/default.jpg'
