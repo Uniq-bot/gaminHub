@@ -35,9 +35,9 @@ const Navbar = () => {
       </div>
 
       {/* Login Button */}
-      <button className='px-6 py-2 bg-gradient-to-r from-lime-500 to-cyan-500 text-slate-900 font-bold rounded-lg hover:shadow-lg hover:shadow-lime-500/50 transition-all hover:scale-105 font-[JetMono]'>
+      <Link href="/login" className='px-6 py-2 bg-gradient-to-r from-lime-500 to-cyan-500 text-slate-900 font-bold rounded-lg hover:shadow-lg hover:shadow-lime-500/50 transition-all hover:scale-105 font-[JetMono]'>
         Login
-      </button>
+      </Link>
     </nav>
   )
 }
